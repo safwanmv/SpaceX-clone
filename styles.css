@@ -139,7 +139,7 @@ main{
         padding-left: 50px;
         padding-right: 50px;
         font-weight:700;
-        width:148px ;
+        width:154px ;
         height: 50px;
         letter-spacing: -1px; 
         position: relative; /* Makes sure the pseudo-element is positioned relative to the button */
@@ -222,3 +222,51 @@ main{
         margin-bottom:10px ;
         margin-left: -4PX;
     }
+
+
+    .main-4{
+        background-image: url(/img/div4.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .main-4-txt-btn{
+        margin: 114px;
+    }
+    .txt-4{
+        color: rgba(255, 255, 255, 0.966);
+        font-family:'Roboto', sans-serif;
+        
+        
+        
+    }
+    .txt-4 p{
+        font-size:large ;
+        padding-bottom: 0px;
+        padding-left: 37px;
+        font-weight: lighter;
+        margin-bottom: -30px;
+        
+       
+    }
+    .txt-4 h1{
+        padding-left: 37px;
+        font-size:42px;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        
+        
+    }
+
+    .btn-4{
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom:5px ;
+    }
+    
+    
