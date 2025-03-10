@@ -135,16 +135,13 @@ main{
 }
 .watch-btn{
     margin-left: 37px;
-    padding :18px ;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-weight:700;
-    width:148px ;
-    height: 50px;
-    
+        padding :18px ;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-weight:700;
+        width:148px ;
+        height: 50px;
         letter-spacing: -1px; 
-    
-    
         position: relative; /* Makes sure the pseudo-element is positioned relative to the button */
         background-color: transparent; /* Make the button background transparent */
         border: 2px solid rgba(255, 255, 255,0.8); /* Border with slight opacity */
@@ -155,6 +152,8 @@ main{
         overflow: hidden; /* Ensures the pseudo-element does not overflow the button */
         transition: color 0.2s ease; /* Smooth transition for text color */
         z-index: 1; /* Ensure the text is above the pseudo-element */
+    
+        
     }
     
     .watch-btn::before {
