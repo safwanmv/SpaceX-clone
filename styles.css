@@ -1,68 +1,4 @@
-<<<<<<< HEAD
-#pic1 img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover;
-}
-#pic1 {
-    width: 100%;
-    height: 100vh;  /* Full viewport height */
-    overflow: hidden; 
-    position: relative;
-}
-body, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-#pic2 img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover;
-}
-#pic2 {
-    width: 100%;
-    height: 100vh;  /* Full viewport height */
-    overflow: hidden;  /* Hide any overflow if the image doesn't match the aspect ratio */
-}
-#ul-heading {
-    position: absolute;
-    top: 55%;  
-    
-    left: 4%;
-    color: rgb(255, 255, 255);
-    font-size: 15px; 
-    font-family: Arial, Verdana, sans-serif;
-}
-#sm-heading {
-    position: absolute;
-    top: 54%;  
-    left: 4%;
-    color: rgb(255, 255, 255);
-    font-size: 55px; 
-    font-family: Arial, Verdana, sans-serif;
-}
-#btn {
-    position: absolute;
-    top: 82%;  /* Adjust button's vertical position */
-    left: 4%;  /* Position the button in the center */
-    background-color: rgba(0, 0, 0, 0); /* Transparent white background */
-    color: #000000; /* White text */
-    font-size: 20px;
-    font-weight: 600;
-    padding: 25px 50px;
-    font-family: Arial, Verdana, sans-serif;
-    border: 2px solid rgb(255, 255, 255); /* Border with a slight transparency */
-    cursor: pointer;
-    transition: background-color 0.3s ;
-}
 
-#btn:hover {
-    background-color: rgb(255, 255, 255); /* Semi-transparent blue background */
-    border-color: rgb(255, 255, 255); /* Slightly more opaque border on hover */
-    color: rgb(0, 0, 0); /* Keep the text white */
-}
-=======
 html{
     scroll-behavior: smooth;
 }
@@ -204,7 +140,7 @@ main{
         padding-left: 50px;
         padding-right: 50px;
         font-weight:700;
-        width:148px ;
+        width:154px ;
         height: 50px;
         letter-spacing: -1px; 
         position: relative; /* Makes sure the pseudo-element is positioned relative to the button */
@@ -287,4 +223,138 @@ main{
         margin-bottom:10px ;
         margin-left: -4PX;
     }
->>>>>>> main
+
+
+
+    .main-4{
+        background-image: url(/img/div4.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .main-4-txt-btn{
+        margin: 114px;
+    }
+    .txt-4{
+        color: rgba(255, 255, 255, 0.966);
+        font-family:'Roboto', sans-serif;
+        
+        
+        
+    }
+    .txt-4 p{
+        font-size:large ;
+        padding-bottom: 0px;
+        padding-left: 37px;
+        font-weight: lighter;
+        margin-bottom: -30px;
+        
+       
+    }
+    .txt-4 h1{
+        padding-left: 37px;
+        font-size:42px;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        
+        
+    }
+
+    .btn-4{
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom:5px ;
+    }
+    
+    
+    .main-5{
+        background-image: url(/img/div5.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .main-5-txt-btn{
+        margin: 120px;
+    }
+    .btn-5{
+        margin-left: -24px;
+    }
+    .Advancing{
+        width: 80%;
+        margin-bottom:10px ;
+        margin-left: -4PX;
+    }
+
+
+     
+    .main-6{
+        background-image: url(/img/DIV6.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .main-6-txt-btn{
+        margin: 120px;
+    }
+    .btn-6{
+        margin-left: -19px;
+    }
+    .life{
+        width: 82%;
+        margin-bottom:35px ;
+        margin-left: -4PX;
+    }
+    .btn-6 .watch-btn{
+        width: 33%;
+    }
+
+    footer {
+        width: 100%;
+        height: 10vh;
+        background-color: black;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        
+      
+       
+   
+    }
+
+    footer a{
+        font-family:'Roboto', sans-serif;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 12px;
+        font-size:  11px;
+        font-weight: bold;
+        padding-left: 9px;
+        padding-right: 9px;
+        
+    }
+
+    .copywrite{
+        font-family:'Roboto', sans-serif;
+        font-weight: lighter;
+        color: #ffffff;
+        font-size:  11px;
+        padding-right: 28px;
+    }
+
